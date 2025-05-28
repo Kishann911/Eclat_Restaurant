@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éclat | Modern Fine Dining</title>
+    <meta name="description" content="Éclat Restaurant - Where culinary artistry meets elegant dining in the heart of the city.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#welcome" class="logo">Éclat</a>
+            <ul class="nav-links">
+                <li><a href="#welcome">Welcome</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#cart">Cart (<span class="cart-count">0</span>)</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Welcome/Hero Section -->
+    <section id="welcome" class="hero">
+        <div class="hero-content">
+            <h1>Éclat</h1>
+            <p class="tagline">Where culinary artistry meets elegant dining</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section menu-section">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Seasonal creations by our executive chef</p>
+
+            <!-- Starters -->
+            <div class="menu-category">
+                <h3>Starters</h3>
+                <div class="menu-items">
+                    <!-- Starter 1 -->
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Heirloom Tomato Tartare">
+                            <span class="chef-pick">Chef's Pick</span>
+                        </div>
+                        <div class="item-details">
+                            <h4>Heirloom Tomato Tartare</h4>
+                            <p>Fresh heirloom tomatoes, basil oil, aged balsamic, and crispy sourdough</p>
+                            <span class="price">₹450</span>
+                            <form class="add-to-cart-form">
+                                <input type="hidden" name="item-name" value="Heirloom Tomato Tartare">
+                                <input type="hidden" name="item-price" value="450">
+                                <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Starter 2 -->
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Foie Gras Terrine">
+                        </div>
+                        <div class="item-details">
+                            <h4>Foie Gras Terrine</h4>
+                            <p>House-made terrine with cherry compote and toasted brioche</p>
+                            <span class="price">₹650</span>
+                            <form class="add-to-cart-form">
+                                <input type="hidden" name="item-name" value="Foie Gras Terrine">
+                                <input type="hidden" name="item-price" value="650">
+                                <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Starter 3 -->
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Scallop Crudo">
+                        </div>
+                        <div class="item-details">
+                            <h4>Scallop Crudo</h4>
+                            <p>Dayboat scallops, yuzu kosho, avocado, and finger lime</p>
+                            <span class="price">₹550</span>
+                            <form class="add-to-cart-form">
+                                <input type="hidden" name="item-name" value="Scallop Crudo">
+                                <input type="hidden" name="item-price" value="550">
+                                <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Course -->
+            <div class="menu-category">
+                <h3>Main Course</h3>
+                <div class="menu-items">
+                    <!-- Main 1 -->
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Herb-Crusted Lamb">
+                        </div>
+                        <div class="item-details">
+                            <h4>Herb-Crusted Lamb</h4>
+                            <p>Rack of lamb with rosemary jus, roasted baby vegetables, and potato purée</p>
+                            <span class="price">₹1,250</span>
+                            <form class="add-to-cart-form">
+                                <input type="hidden" name="item-name" value="Herb-Crusted Lamb">
+                                <input type="hidden" name="item-price" value="1250">
+                                <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Main 2 -->
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Miso-Glazed Black Cod">
+                            <span class="chef-pick">Chef's Pick</span>
+                        </div>
+                        <div class="item-details">
+                            <h4>Miso-Glazed Black Cod</h4>
+                            <p>Marinated for 48 hours, served with shiitake dashi and baby bok choy</p>
+                            <span class="price">₹1,150</span>
+                            <form class="add-to-cart-form">
+                                <input type="hidden" name="item-name" value="Miso-Glazed Black Cod">
+                                <input type="hidden" name="item-price" value="1150">
+                                <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Main 3 -->
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Duck Breast">
+                        </div>
+                        <div class="item-details">
+                            <h4>Duck Breast</h4>
+                            <p>Confit leg, sour cherry reduction, and celeriac purée</p>
+                            <span class="price">₹1,050</span>
+                            <form class="add-to-cart-form">
+                                <input type="hidden" name="item-name" value="Duck Breast">
+                                <input type="hidden" name="item-price" value="1050">
+                                <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category">
+                <h3>Desserts</h3>
+                <div class="menu-items">
+                    <!-- Dessert 1 -->
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Chocolate Soufflé">
+                        </div>
+                        <div class="item-details">
+                            <h4>Chocolate Soufflé</h4>
+                            <p>Valrhona chocolate with vanilla bean ice cream</p>
+                            <span class="price">₹350</span>
+                            <form class="add-to-cart-form">
+                                <input type="hidden" name="item-name" value="Chocolate Soufflé">
+                                <input type="hidden" name="item-price" value="350">
+                                <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Dessert 2 -->
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Pistachio Financier">
+                        </div>
+                        <div class="item-details">
+                            <h4>Pistachio Financier</h4>
+                            <p>With raspberry coulis and crème fraîche</p>
+                            <span class="price">₹300</span>
+                            <form class="add-to-cart-form">
+                                <input type="hidden" name="item-name" value="Pistachio Financier">
+                                <input type="hidden" name="item-price" value="300">
+                                <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Dessert 3 -->
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Seasonal Fruit Pavlova">
+                        </div>
+                        <div class="item-details">
+                            <h4>Seasonal Fruit Pavlova</h4>
+                            <p>Crisp meringue with chantilly cream and fresh berries</p>
+                            <span class="price">₹320</span>
+                            <form class="add-to-cart-form">
+                                <input type="hidden" name="item-name" value="Seasonal Fruit Pavlova">
+                                <input type="hidden" name="item-price" value="320">
+                                <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart" class="section cart-section">
+        <div class="container">
+            <h2 class="section-title">Your Order</h2>
+            <div class="cart-container">
+                <div class="cart-items">
+                    <p class="empty-cart-message">Your cart is currently empty</p>
+                    <!-- Cart items would appear here with JavaScript -->
+                </div>
+                <div class="cart-summary">
+                    <h3>Order Summary</h3>
+                    <div class="summary-details">
+                        <div class="summary-row">
+                            <span>Subtotal:</span>
+                            <span class="subtotal">₹0</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Tax (5%):</span>
+                            <span class="tax">₹0</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Total:</span>
+                            <span class="total-amount">₹0</span>
+                        </div>
+                    </div>
+                    <form class="checkout-form">
+                        <button type="submit" class="checkout-btn" disabled>Proceed to Checkout</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="about-content">
+                <p>Founded in 2010, Éclat began as a passion project between Chef Kishan. What started as a small 12-table bistro has blossomed into one of the city's most celebrated dining destinations.</p>
+                
+                <p>Our philosophy is simple: source the finest seasonal ingredients and let their natural flavors shine through thoughtful preparation. Each dish tells a story of tradition meeting innovation.</p>
+                
+                <p>The name "Éclat" reflects our commitment to moments of brilliance - in food, wine, and service. We invite you to experience this vision in our intimate, art-filled dining room.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section location-section">
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <div class="location-content">
+                <div class="address">
+                    <h3>Hours</h3>
+                    <p>Tuesday - Thursday: 5:30PM - 10:00PM</p>
+                    <p>Friday - Saturday: 5:00PM - 11:00PM</p>
+                    <p>Sunday: 5:00PM - 9:00PM</p>
+                    <p>Closed Monday</p>
+                    
+                    <h3>Location</h3>
+                    <address>
+                        123 Culinary Lane<br>
+                        Flavor Town, FT 10001<br>
+                        <a href="tel:+15551234567">(555) 123-4567</a>
+                    </address>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215256027072!2d-73.9878449241641!3d40.7484409713895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1717000000000!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Éclat Restaurant. All rights reserved.</p>
+            <p>Designed with passion for exceptional dining experiences.</p>
+        </div>
+    </footer>
+</body>
+</html>
